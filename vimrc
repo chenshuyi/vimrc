@@ -250,4 +250,4 @@ map <F6> :make clean<cr> :copen<cr>
 
 nmap pj :Project<cr>
 
-}
+" }
