@@ -104,9 +104,8 @@ set title        " set the terminal title to the current file
 "set foldmethod = syntax   
 
 nmap wv  <C-w>v   
-nmap wc  <C-w>c
 nmap ws  <C-w>s
-
+nmap wc  <C-w>c
 nmap wq  <C-w>q
 
 " }
@@ -250,5 +249,15 @@ map <F6> :make clean<cr> :copen<cr>
 " project config {
 
 nmap pj :Project<cr>
+
+" }
+
+"""""""""""""""""""""""""""""""""""""""""
+"               A Plugin                "
+"""""""""""""""""""""""""""""""""""""""""
+
+" A config {
+
+nnoremap <silent> <F12> :A<cr>
 
 " }
