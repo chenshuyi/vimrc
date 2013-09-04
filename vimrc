@@ -97,6 +97,7 @@ endif
 set number
 set smartindent   
 set autoindent 
+set autoread
 
 set title        " set the terminal title to the current file
 "set cursorline   " highlight the line under the cursor
