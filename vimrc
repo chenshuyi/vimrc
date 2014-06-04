@@ -99,6 +99,8 @@ set smartindent
 set autoindent 
 set autoread
 
+set sw=4
+
 set title        " set the terminal title to the current file
 "set cursorline   " highlight the line under the cursor
 "set foldmethod = syntax   
